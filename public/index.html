@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Guestbook</title>
+        <script src="express.js"></script>
+        <link rel="stylesheet" href="Design.css">
+	</head>
+
+    <div id="header">
+        <h1>MY GUESTBOOK APP</h1>
+    </div>
+    <div id = "navigation">
+        <form method="post" action="/newMessage">
+            <input type="submit" value="Add entry" id="navi">
+        </form>
+        <form method="post" action="/guestbook">
+            <input type="submit" value="View guestbook" id="navi">
+        </form>
+
+    </div>
+
+    <div id = "content">
+        <div id = "picture">
+            <img src="image/guestbook.jpg">
+        </div>
+        <div id="text">
+            <p>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non convallis felis, eget tincidunt elit. Aenean in facilisis metus. Donec ut ante at purus porttitor mollis eget non mauris. Praesent malesuada nunc eget diam aliquet, eu placerat justo commodo. Praesent nec enim interdum, malesuada felis id, sagittis turpis. Integer dolor purus, aliquam scelerisque nisi id, sollicitudin tincidunt felis. Pellentesque varius quis justo vitae sollicitudin. Sed tempus ac tellus a ultricies. Integer sollicitudin lobortis hendrerit. Maecenas viverra leo nec enim suscipit, at ullamcorper lectus porta. Morbi porta ante quis ligula luctus fermentum.
+                
+                Sed hendrerit ipsum sed ante cursus, vitae cursus mauris mattis. Praesent viverra accumsan arcu. Aliquam faucibus hendrerit enim, eget aliquam odio placerat sit amet. Cras porta, est a hendrerit aliquam, lacus ante suscipit ligula, scelerisque pretium diam velit in sapien. In cursus, turpis vitae dictum pellentesque, augue felis scelerisque nulla, vel pulvinar nulla metus eget lacus. Nullam sit amet enim nec mauris cursus consectetur. Aliquam euismod ultricies lacinia. Suspendisse potenti. Vestibulum ultricies ullamcorper leo, a egestas massa lacinia at. Etiam tortor nulla, porta sed nisi sed, facilisis dapibus odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel est a nisl bibendum congue. Aliquam erat volutpat. Proin sit amet nulla nibh. Mauris mollis congue eros id malesuada. Vivamus congue dapibus lectus, eu congue massa efficitur quis.</p>
+        </div>
+    </div>
+
+</html>

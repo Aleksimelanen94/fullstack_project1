@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Chat</title>
+        <script src="express.js"></script>
+        <link rel="stylesheet" href="Design.css">
+	</head>
+
+    <div id="header">
+        <h1>MY GUESTBOOK APP</h1>
+    </div>
+    <div id = "navigation">
+        <form method="post" action="/">
+            <input type="submit" value="Home" id="navi">
+        </form>
+        <form method="post" action="/guestbook">
+            <input type="submit" value="View guestbook" id="navi">
+        </form>
+    </div>
+
+    <div id="form">
+        <form method="post" action="/adduser">
+            Name <input type="text" name ="name" id="navi">
+            <br>
+            Message <input type="text" name="message" id="navi">
+            <br>
+            <input type="submit" value="Send message" id ="navi2">
+        </form>
+    </div>
+</html>

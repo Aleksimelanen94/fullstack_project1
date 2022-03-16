@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Chat</title>
+        <script src="express.js"></script>
+        <link rel="stylesheet" href="Design.css">
+	</head>
+    <body onload="messageList()">
+
+
+    <div id="header">
+        <h1>MY GUESTBOOK APP</h1>
+    </div>
+    <div id = "navigation">
+        <form method="post" action="/">
+            <input type="submit" value="Home" id="navi">
+        </form>
+        <form method="post" action="/newMessage">
+            <input type="submit" value="Add entry" id="navi">
+        </form>
+    </div>
+    <ul id="messageList">
+
+    </ul>
+</body>
+</html>
